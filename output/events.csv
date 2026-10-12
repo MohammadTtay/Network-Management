@@ -1,0 +1,9 @@
+day,branch,event_type,users_added,is_outage_incident,traditional_detection_min,traditional_diagnosis_min,traditional_repair_min,traditional_downtime_min,smart_detection_min,smart_diagnosis_min,smart_repair_min,smart_downtime_min,notes
+6,Branch-5,bandwidth_overuse,0,False,0,0,0,0,0,0,0,0,Bandwidth usage alert; assigned to Branch-5.
+9,Branch-9,link_failure,0,True,30,60,90,180,2,5,30,37,Internet link failure; counted as an outage incident.
+12,Branch-3,bottleneck,0,False,0,0,0,0,0,0,0,0,Bottleneck alert; assigned to Branch-3.
+14,Branch-5,router_failure,0,True,30,60,90,180,2,5,30,37,Router failure; counted as an outage incident.
+16,Branch-9,configuration_error,0,True,30,60,90,180,2,5,30,37,Configuration error; counted as an outage incident.
+19,Branch-4,user_growth,28,False,0,0,0,0,0,0,0,0,Simulated user growth; may increase future load.
+27,Branch-9,firewall_failure,0,True,30,60,90,180,2,5,30,37,Firewall failure; counted as an outage incident.
+28,Branch-4,high_traffic,0,False,0,0,0,0,0,0,0,0,"Traffic spike; operational event, not a full outage in this model."

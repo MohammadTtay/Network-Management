@@ -1,0 +1,7 @@
+NETWORK MONITORING WARNINGS
+==============================
+WARNING before optimisation:
+Branch-3 -> 93.1%
+Branch-5 -> 97.2%
+WARNING after optimisation:
+Branch-3 -> 93.1%

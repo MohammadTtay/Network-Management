@@ -1,0 +1,11 @@
+item,base_cost_usd
+Router,5800.00
+Switch,3400.00
+Firewall,4200.00
+Cable,600.00
+Installation,1400.00
+Base CAPEX,15400.00
+Traditional scenario upgrades,1200.00
+Smart scenario upgrades,600.00
+Total CAPEX without management,16600.00
+Total CAPEX with management,16000.00

@@ -1,0 +1,54 @@
+{
+  "seed": 42,
+  "simulation_days": 30,
+  "branch_count": 10,
+  "outage_incident_count": 4,
+  "operational_event_count": 4,
+  "base_capex_usd": 15400.0,
+  "base_capex_breakdown_usd": {
+    "Router": 5800.0,
+    "Switch": 3400.0,
+    "Firewall": 4200.0,
+    "Cable": 600.0,
+    "Installation": 1400.0
+  },
+  "traditional_upgrade_cost_usd": 1200.0,
+  "smart_upgrade_cost_usd": 600.0,
+  "traditional": {
+    "capex_usd": 16600.0,
+    "monthly_opex_usd": 3166.6666666667,
+    "annual_opex_usd": 38000.0000000004,
+    "tco_5_years_usd": 206600.000000002,
+    "downtime_min": 720,
+    "lost_revenue_usd": 72000.0,
+    "availability_pct": 98.33333333333333,
+    "mean_repair_time_min": 90.0,
+    "upgrade_decisions_proxy": 2
+  },
+  "smart": {
+    "capex_usd": 16000.0,
+    "monthly_opex_usd": 2083.3333333333,
+    "annual_opex_usd": 24999.9999999996,
+    "tco_5_years_usd": 140999.999999998,
+    "downtime_min": 148,
+    "lost_revenue_usd": 14800.0,
+    "availability_pct": 99.6574074074074,
+    "mean_repair_time_min": 30.0,
+    "upgrade_decisions_proxy": 1
+  },
+  "tco_reduction_pct": 31.752178121976467,
+  "capex_reduction_pct": 3.614457831325301,
+  "opex_reduction_pct": 34.21052631579122,
+  "downtime_reduction_pct": 79.44444444444444,
+  "lost_revenue_saving_usd": 57200.0,
+  "unnecessary_upgrade_avoided_proxy": 1,
+  "forecast": {
+    "estimated_daily_growth_mbps": 2.382589902955243,
+    "estimated_intercept_mbps": 36.805041205317515,
+    "estimated_saturation_day": 26.523640814686022,
+    "days_remaining_from_last_observation": 4.523640814686022,
+    "last_observed_day": 22.0,
+    "last_observed_traffic_mbps": 88.92116287572681,
+    "capacity_mbps": 100.0
+  }
+}

@@ -1,0 +1,15 @@
+metric,unit,without_smart_management,with_smart_management
+CAPEX,USD,16600.0000,16000.0000
+Monthly OPEX,USD/month,3166.6667,2083.3333
+Annual OPEX,USD/year,38000.0000,25000.0000
+TCO (5 years),USD,206600.0000,141000.0000
+Downtime,minutes in 30-day simulation,720.0000,148.0000
+Lost Revenue,USD,72000.0000,14800.0000
+Network Availability,%,98.3333,99.6574
+Mean Repair Time,minutes,90.0000,30.0000
+Upgrade decisions (proxy),count,2.0000,1.0000
+CAPEX Reduction,%,0.0000,3.6145
+Annual OPEX Reduction,%,0.0000,34.2105
+Downtime Reduction,%,0.0000,79.4444
+TCO Reduction (5 years),%,0.0000,31.7522
+Lost Revenue Saving,USD,0.0000,57200.0000

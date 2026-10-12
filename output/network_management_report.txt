@@ -1,0 +1,66 @@
+NETWORK MANAGEMENT REPORT
+============================================================
+Random seed                : 42
+Simulation period          : 30 days
+Number of branches         : 10
+Outage incidents           : 4
+Other operational events   : 4
+
+CAPEX BREAKDOWN (BASE NETWORK)
+------------------------------------------------------------
+Total Router Cost          : $5,800
+Total Switch Cost          : $3,400
+Total Firewall Cost        : $4,200
+Cable                      : $600
+Installation               : $1,400
+Base CAPEX                 : $15,400
+Traditional upgrades       : $1,200
+Smart-scenario upgrades    : $600
+
+COMPARISON
+------------------------------------------------------------
+Metric                         Without management    With management
+CAPEX                                     $16,600            $16,000
+Monthly OPEX                            $3,166.67          $2,083.33
+Annual OPEX                               $38,000            $25,000
+TCO (5 years)                            $206,600           $141,000
+Downtime (minutes)                            720                148
+Lost revenue                              $72,000            $14,800
+Network availability                      98.333%            99.657%
+Mean repair time                             90.0               30.0
+Upgrade decisions (proxy)                       2                  1
+
+IMPACT OF SMART MANAGEMENT
+------------------------------------------------------------
+TCO reduction              : 31.75%
+CAPEX reduction            : 3.61%
+Annual OPEX reduction      : 34.21%
+Downtime reduction         : 79.44%
+Lost revenue saving        : $57,200
+Upgrade decisions avoided  : 1
+
+BOTTLENECK / RESOURCE OPTIMISATION
+------------------------------------------------------------
+Branch-3: 93.1% before -> 93.1% after; backup 10:00 -> 10:00
+Branch-5: 97.2% before -> 38.9% after; backup 10:00 -> 02:00
+
+TRAFFIC FORECAST (Branch-3, 100 Mbps capacity)
+------------------------------------------------------------
+Estimated growth           : 2.38 Mbps/day
+Last observed traffic      : 88.92 Mbps on day 22
+Estimated saturation day   : 26.52
+Estimated days remaining   : 4.52
+
+RECOMMENDATION
+------------------------------------------------------------
+Smart monitoring, alarm correlation and traffic analysis reduce the modelled OPEX and downtime.
+Move backup traffic from 10:00 to 02:00 for Branch-5; review any branch still above 90% utilisation.
+Use the traffic forecast to plan capacity before the link saturates.
+
+MODELLING NOTES
+- Downtime totals sum the outage incidents in the 30-day simulation; operational alerts are not treated as full outages.
+- Availability follows the assignment example: (30-day minutes - summed outage minutes) / 30-day minutes.
+- Lost revenue is modelled at $100 per downtime minute, as specified by the assignment.
+- Upgrade decisions are a simple proxy: a branch at or above 90% utilisation triggers an upgrade decision.
+- The seed makes random user counts, traffic, event days, and generated forecast data reproducible.
+- Cost values not fully specified by the assignment are assumptions documented in the README.

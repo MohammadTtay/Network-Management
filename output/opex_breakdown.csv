@@ -1,0 +1,13 @@
+scenario,component,monthly_cost_usd
+traditional,Engineer salary,1400.0000
+traditional,Internet,900.0000
+traditional,Electricity,200.0000
+traditional,Maintenance,500.0000
+traditional,Training,100.0000
+traditional,Software license,66.6667
+smart,Engineer salary,750.0000
+smart,Internet,900.0000
+smart,Electricity,150.0000
+smart,Maintenance,100.0000
+smart,Training,60.0000
+smart,Software / monitoring license,123.3333
